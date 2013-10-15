@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Auto UR Internal Secure",
+  "description": "Automatically logs you in to UR_RC_InternalSecure",
+  "version": "1.0",
+
+
+  "content_scripts": [
+    {
+      "matches": ["*://lwappctrl.net.rochester.edu/*"],
+      "js": ["jquery.min.js", "work.js"]
+    }
+  ]
+  
+}
